@@ -27,7 +27,7 @@ The primary objective was achieved through the observation of a statistically si
 
 The figure below illustrates the combined simulated signal and background components, revealing the key characteristic of the Higgs decay.
 
-**[INSERT IMAGE: Link to your final reconstructed invariant mass plot showing the peak at 125 GeV]**
+![Reconstructed Higgs Boson Invariant Mass Plot](higgs_plot.png)
 
 * *Figure Description:* The histogram displays the distribution of the four-lepton invariant mass ($m_{4\ell}$). The data clearly exhibits a resonant structure at **$m_{4\ell} \approx 125 \text{ GeV/c}^2$**, consistent with the theoretical prediction and experimental observation of the Higgs Boson.
 
