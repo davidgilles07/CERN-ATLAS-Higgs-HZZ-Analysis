@@ -43,15 +43,10 @@ The signal significance ($S$) provides a quantitative measure of the signal's pr
 
 ## 💻 Technical Implementation
 
-The complete step-by-step analysis is documented within the accompanying Jupyter Notebook (`HZZAnalysis.ipynb`).
+The complete step-by-step analysis is documented within the accompanying Jupyter Notebook (`HZZAnalysis.ipynb`). **The notebook is pre-executed and contains all final code, output, and visualizations for immediate review.**
 
 * **Language:** Python
 * **Key Libraries:** Pandas, NumPy, Matplotlib
 * **Environment:** Jupyter Notebook (enables transparent code, visualization, and documentation)
-
-### Running the Notebook
-
-To examine the analysis in detail, clone the repository and execute the Jupyter Notebook file.
-
-1.  `git clone [Your Repository URL]`
-2.  `jupyter notebook HZZAnalysis.ipynb`
+* **Methodology:** Statistical Analysis, Monte Carlo Simulation, Kinematic Event Filtering
+* **Data Source:** CERN ATLAS Open Data (2025 Beta Release)
