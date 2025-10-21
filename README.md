@@ -43,7 +43,7 @@ The signal significance ($S$) provides a quantitative measure of the signal's pr
 
 ## 💻 Technical Implementation
 
-The complete step-by-step analysis is documented within the accompanying Jupyter Notebook (`HZZAnalysis.ipynb`). **The notebook is pre-executed and contains all final code, output, and visualizations for immediate review.**
+The complete step-by-step analysis is documented within the accompanying Jupyter Notebook ([HZZAnalysis.ipynb](HZZAnalysis.ipynb)). **The notebook is pre-executed and contains all final code, output, and visualizations for immediate review.**
 
 * **Language:** Python
 * **Key Libraries:** Pandas, NumPy, Matplotlib
