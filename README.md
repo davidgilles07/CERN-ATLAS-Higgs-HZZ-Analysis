@@ -33,11 +33,11 @@ The figure below illustrates the combined simulated signal and background compon
 
 ### 2. Signal Significance Calculation
 
-The signal significance ($S$) provides a quantitative measure of the signal's prominence relative to the background fluctuations within the defined search window (**[Insert your Signal Window, e.g., $115 \text{ GeV/c}^2$ to $130 \text{ GeV/c}^2$]**). A common method is $S = \frac{N_{\text{sig}}}{\sqrt{N_{\text{bg}}}}$.
+The signal significance ($S$) provides a quantitative measure of the signal's prominence relative to the background fluctuations within the defined search window  $115 \text{ GeV/c}^2$ to $130 \text{ GeV/c}^2$. A common method is $S = \frac{N_{\text{sig}}}{\sqrt{N_{\text{bg}}}}$.
 
-**[INSERT CODE SNIPPET: The Python/NumPy code block where you calculate $\mathbf{N}_{\text{sig}}$, $\mathbf{N}_{\text{bg}}$, and the final significance value]**
+`python N_sig = signal_tot[17:20].sum() N_bg = mc_x_tot[17:20].sum() # Note: The term (0.3 * N_bg**2) accounts for systematic uncertainty. signal_significance = N_sig/np.sqrt(N_bg + 0.3 * N_bg**2)`
 
-* *Calculated Value:* The final signal significance obtained in this simulation is $S \approx$ **[Insert final significance value, e.g., $5.1$]**.
+* *Calculated Value:* The final signal significance obtained in this simulation is $S \approx$ $4.156$ .
 
 ---
 
